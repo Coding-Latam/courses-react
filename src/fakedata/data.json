@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "icon": "icon-fire",
+      "name": "Diseño"
+    },
+    {
+      "id": 2,
+      "icon": "icon-happy",
+      "name": "Ilustracion"
+    },
+    {
+      "id": 3,
+      "icon": "icon-grin",
+      "name": "Desarrollo"
+    },
+    {
+      "id": 4,
+      "icon": "icon-fire",
+      "name": "Marketing Digital"
+    },
+    {
+      "id": 5,
+      "icon": "icon-happy",
+      "name": "Elearning"
+    },
+    {
+      "id": 6,
+      "icon": "icon-grin",
+      "name": "Redes sociales"
+    },
+    {
+      "id": 7,
+      "icon": "icon-fire",
+      "name": "Podcast"
+    }
+  ],
+  "courses": [
+    {
+      "id": 0,
+      "title": "Curso de HTML",
+      "description": "HTML",
+      "link": "/html"
+    },
+    {
+      "id": 1,
+      "title": "Curso de CSS",
+      "description": "CSS",
+      "link": "/css"
+    },
+    {
+      "id": 2,
+      "title": "Curso de Flexbox",
+      "description": "FLEXBOX",
+      "link": "/flexbox"
+    },
+    {
+      "id": 3,
+      "title": "Curso de CSS GRID",
+      "description": "CSS GRID",
+      "link": "/css-grid"
+    },
+    {
+      "id": 4,
+      "title": "Curso de Javascript",
+      "description": "Javascript",
+      "link": "/javascript"
+    }
+  ]
+}

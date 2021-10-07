@@ -1,0 +1,48 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 30px;
+
+  @include breakpoint($sm) {
+    padding: 0;
+  }
+
+  &__categories {
+    width: 100%;
+
+    @include breakpoint($sm) {
+      padding: 0 0 0 30px;
+      width: 30%;
+    }
+  }
+
+  &__courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    @include breakpoint($sm) {
+      width: 70%;
+      padding-right: 30px;
+    }
+
+    @include breakpoint($md) {
+      padding: 0;
+    }
+  }
+
+  .mode {
+    display: none;
+
+    // @media (min-width: 992px) {
+    //   display: block;
+    // }
+
+    @include breakpoint($sm) {
+      display: block;
+    }
+  }
+}

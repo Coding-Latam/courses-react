@@ -1,0 +1,52 @@
+.header {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  min-height: 250px;
+  justify-content: space-between;
+
+  &__banner {
+    background-image: url("../../images/header.jpg");
+    background-size: cover;
+    background-position: top;
+    min-height: 250px;
+    width: 100%;
+
+    @include breakpoint($sm) {
+      width: 70%;
+    }
+  }
+
+  &__brand {
+    span {
+      font-size: 20px;
+      margin-left: 10px;
+    }
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    width: 100%;
+
+    @include breakpoint($sm) {
+      width: 30%;
+    }
+  }
+
+  &__right {
+    .mode {
+      @include breakpoint($sm) {
+        display: none;
+      }
+    }
+  }
+}

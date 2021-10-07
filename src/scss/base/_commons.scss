@@ -1,0 +1,50 @@
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+
+  @include breakpoint($md) {
+    max-width: 920px;
+  }
+
+  @include breakpoint($lg) {
+    max-width: 1170px;
+  }
+}
+
+.global-container {
+  background-color: $color-gray;
+
+  &.dark {
+    background: rgb(46, 45, 66);
+
+    .categories__title {
+      color: $color-white;
+    }
+
+    .categories__list {
+      li {
+        color: $color-white-dk;
+      }
+    }
+
+    .course {
+      background: rgb(63, 61, 86);
+    }
+
+    .course__title {
+      h3 {
+        color: $color-white;
+      }
+    }
+
+    .course__description {
+      p {
+        color: $color-white-dk;
+      }
+    }
+
+    .header__brand {
+      color: $color-white;
+    }
+  }
+}
